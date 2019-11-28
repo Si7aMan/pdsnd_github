@@ -243,8 +243,8 @@ def raw_data(df, marker):
             sort_df = input("\nMake Sure you selected right\nPlease Select again:\n [st] for Start time\n [et] for End time\n [td] for Trip Duration\n [ss] for Start Station\n "
                          "[es] for End Station\n [ns] for No Sorting\n\n")
         
-        # Sort Ascendingly or Descendingly
-        asc_desc_sort = input("\nWould you like to sort ascendingly or descendingly?\n"
+        # Sort in Ascending or Descending order
+        asc_desc_sort = input("\nWould you like to sort in ascending order or in descending order?\n"
                                " [a] for Ascending\n [d] for Descending\n\n")
         sorted_ways = ['a', 'd']
         while asc_desc_sort not in sorted_ways:
