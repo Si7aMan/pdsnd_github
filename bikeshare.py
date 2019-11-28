@@ -299,7 +299,8 @@ def main():
                 raw_data(df, marker)
             elif data_selection == 'r':
                 break
-
+        
+        # checking if the user want to continue or not
         restart = input('\nWould you like to restart?\n\n[y] Yes\n[n] No\n')
         if restart.lower() != 'y':
             break
