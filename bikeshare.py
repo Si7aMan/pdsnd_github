@@ -10,9 +10,33 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'washington': 'washington.csv'}
 
 cities = ('chicago', 'new york city', 'washington')
-months = ('january', 'february', 'march', 'april', 'may', 'june', 'all')
-months_names = {'1':'january', '2':'february', '3':'march', '4':'april', '5':'may', '6':'june'}
-days = ('saturday', 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'all')
+months = (
+    'january',
+    'february',
+    'march',
+    'april',
+    'may',
+    'june',
+    'all',
+    )
+months_names = {
+    '1': 'january',
+    '2': 'february',
+    '3': 'march',
+    '4': 'april',
+    '5': 'may',
+    '6': 'june',
+    }
+days = (
+    'saturday',
+    'sunday',
+    'monday',
+    'tuesday',
+    'wednesday',
+    'thursday',
+    'friday',
+    'all',
+    )
 
 # washington city indicator
 dc_flag = False
