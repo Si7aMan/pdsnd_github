@@ -12,4 +12,7 @@ In this project, we will make use of Python to explore data related to bike shar
 - new_york_city.csv
 - washington.csv
 
-
+### Software needed
+* Python
+* pandas, numpy and click libraries
+* Text Editor (VS Code, Atom,..etc)
